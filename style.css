@@ -438,9 +438,10 @@
     z-index: 10;
     font-size: 4rem;
     padding:0% 1%;
-    border-radius: 0%;
+    border-radius: 10%;
     margin: 3%;
     position: fixed;
+
 
   }
 
@@ -1137,6 +1138,8 @@ a.bg-image-photography {
     display: block;
     font-size: 2rem;
     color: white;
+    background-color: #c1b9ac3b;
+        line-height: 1;
   }
 
   .cross {
@@ -1466,6 +1469,8 @@ header>form, nav {
     margin: 0;
 }
 
+
+
 .nav-item.top-level>a {
     line-height: 1.5;
     font-weight: 600;
@@ -1526,7 +1531,6 @@ body::after, body::before {
 
 @media (min-width: 300px){
 header .open-nav {
-    background-image: url(https://d1qmdf3vop2l07.cloudfront.net/lawful-needle.cloudvent.net/hash-store/7f73883….svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: 100%;
