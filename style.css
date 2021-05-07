@@ -371,8 +371,8 @@
     font-size: 1.3rem;
   }
 
-  .hamburger:active {transform: rotate(0deg) translate(-2px,-1px);
-  transition: transform 1s cubic-bezier(.4,.32,.46,.71);}
+  .active {transform: rotate(90deg) translate(-2px,-1px);
+    transition: transform 1s cubic-bezier(.4,.32,.46,.71);}
 
   .mobile-menu .emphasis {
     color: rgb(120,120,125);
